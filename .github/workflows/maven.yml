@@ -34,7 +34,7 @@ jobs:
       with:
         # 同上述
         host: ${{ secrets.HOST }}
-        username: ${{ secrets.USER_NAME }}
+        username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: cd /home
